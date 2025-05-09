@@ -1,0 +1,46 @@
+/* Basic Styling */
+body {
+  background-color: #f4f7fa;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0056b3;
+}
+
+header p {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #343a40;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+input.form-control {
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.form-select {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .table-responsive {
+    margin-top: 20px;
+  }
+}
