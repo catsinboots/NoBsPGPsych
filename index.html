@@ -1,58 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PG Colleges Directory</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Power Within Psychology | Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <header class="text-center mb-4">
-      <h1 class="display-4 text-primary">I made a website Charija</h1>
-      <p class="lead text-muted">Find the best colleges for your postgraduate psychology studies</p>
-    </header>
-
-    <!-- Filter and Search -->
-    <div class="row mb-3">
-      <div class="col-md-6 offset-md-3">
-        <div class="d-flex justify-content-between">
-          <label for="cuetFilter" class="form-label">Filter by Admission Process:</label>
-          <select id="cuetFilter" class="form-select w-auto" onchange="filterTable()">
-            <option value="All">All</option>
-            <option value="CUET-PG">CUET</option>
-            <option value="Non-CUET">Non-CUET</option>
-          </select>
-        </div>
-        <input type="text" id="searchInput" class="form-control mt-3" placeholder="Search for colleges..." onkeyup="filterTable()" />
-      </div>
-    </div>
-
-    <!-- Colleges Table -->
-    <div class="table-responsive">
-      <table class="table table-striped table-hover" id="collegeTable">
-        <thead class="table-dark">
-          <tr>
-            <th>College Name</th>
-            <th>Course Type</th>
-            <th>Specialization</th>
-            <th>Location</th>
-            <th>Admission Process</th>
-            <th>Eligibility</th>
-            <th>Fees</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody">
-          <!-- Data will be injected by JS -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <!-- Bootstrap JS (optional for future interactions) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <header>
+    <h1>Power Within Psychology</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="test-series.html">Test Series</a>
+      <a href="books.html">Books</a>
+      <a href="classes.html">Classes</a>
+      <a href="counseling.html">Counseling</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html">Student Portal</a>
+      <a href="training-center.html">Training Center</a>
+      <a href="events.html">Events</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to Power Within Psychology</h2>
+      <p>Your one-stop platform for Psychology entrance exam preparation, career guidance, and more.</p>
+    </section>
+    <section>
+      <h3>Latest Announcements</h3>
+      <ul>
+        <li>Now hiring: Faculty & Interns</li>
+        <li>Recognized by Amazon India for best-selling books</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Featured Courses</h3>
+      <ul>
+        <li>CUET PG Crash Course</li>
+        <li>UGC NET JRF Crash Course</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Blog Highlights</h3>
+      <ul>
+        <li><a href="blog.html">How to Prepare for Psychology Entrance Exams</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Power Within Psychology</p>
+  </footer>
 </body>
 </html>
